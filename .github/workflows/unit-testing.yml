@@ -1,0 +1,26 @@
+name: Unit Testing
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master  
+jobs:
+  tests:
+    name: Dotnet tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '6'
+      - name: Run tests
+        run: |
+          cd Godotstation
+          dotnet test --logger "trx;LogFileName=TestResults.xml"
+      - uses: actions/upload-artifact@v2
+        if: success() || failure()
+        with:
+          name: test-results
+          path: ${{ github.workspace }}/Godotstation/NonGodotTests/TestResults/TestResults.xml

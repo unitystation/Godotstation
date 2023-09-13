@@ -1,0 +1,27 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GodotStation", "GodotStation.csproj", "{D4075258-E5DF-48F7-8523-BDB27FCDC1B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonGodotTests", "NonGodotTests\NonGodotTests.csproj", "{9260A73F-4968-4640-84E1-16BE584FC776}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	Debug|Any CPU = Debug|Any CPU
+	ExportDebug|Any CPU = ExportDebug|Any CPU
+	ExportRelease|Any CPU = ExportRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4075258-E5DF-48F7-8523-BDB27FCDC1B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4075258-E5DF-48F7-8523-BDB27FCDC1B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4075258-E5DF-48F7-8523-BDB27FCDC1B4}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{D4075258-E5DF-48F7-8523-BDB27FCDC1B4}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{D4075258-E5DF-48F7-8523-BDB27FCDC1B4}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{D4075258-E5DF-48F7-8523-BDB27FCDC1B4}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+		{9260A73F-4968-4640-84E1-16BE584FC776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9260A73F-4968-4640-84E1-16BE584FC776}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9260A73F-4968-4640-84E1-16BE584FC776}.ExportDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9260A73F-4968-4640-84E1-16BE584FC776}.ExportDebug|Any CPU.Build.0 = Debug|Any CPU
+		{9260A73F-4968-4640-84E1-16BE584FC776}.ExportRelease|Any CPU.ActiveCfg = Debug|Any CPU
+		{9260A73F-4968-4640-84E1-16BE584FC776}.ExportRelease|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+EndGlobal
